@@ -1,0 +1,41 @@
+table {
+  background-color: #231F20;
+  width: 50%;    
+  margin: 0 auto;  
+
+  border-radius: 10px;
+  overflow: hidden;
+  box-shadow: 0 0px 40px 0px rgba(0, 0, 0, 0.15);
+  -moz-box-shadow: 0 0px 40px 0px rgba(0, 0, 0, 0.15);
+  -webkit-box-shadow: 0 0px 40px 0px rgba(0, 0, 0, 0.15);
+  -o-box-shadow: 0 0px 40px 0px rgba(0, 0, 0, 0.15);
+  -ms-box-shadow: 0 0px 40px 0px rgba(0, 0, 0, 0.15);
+
+  tbody td {
+    padding-top: 16px;
+    padding-bottom: 16px;
+    text-align: center;
+
+    font-family: sans-serif;
+    font-size: 15px;
+    color: #808080;
+    line-height: 1.4;
+    background-color: #444444;
+  }
+
+  thead th {
+    padding: .6rem 0 .6rem 0;
+
+    font-family: sans-serif;
+    font-size: 16px;
+    color: #b3844a;
+    line-height: 1.4;
+    text-transform: uppercase;
+    background-color: #231F20;
+    
+    @media screen and (max-width: 480px)
+    {  
+      font-size: 12px;
+    }
+  }   
+}

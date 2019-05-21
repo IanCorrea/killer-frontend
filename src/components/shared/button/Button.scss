@@ -1,0 +1,49 @@
+$color-default: #00ad5f;
+$color-default-hover: #09d171;
+$color-default-border: #03753e;
+$color-default-border-hover: #ffffff;
+
+$color-danger: #AA1527;
+$color-danger-hover: #D11C3A;
+$color-danger-border: #510816;
+$color-danger-border-hover: #ffffff;
+
+$border-width: .2rem;
+$border-style: solid;
+
+.button {    
+    width: 8rem;
+    height: 5rem;
+    border-radius: 100px;
+    font-size: 1.2em;
+    cursor: pointer;
+    text-decoration: none;
+    outline: none; 
+    overflow: hidden;
+
+    &:focus {        
+        outline: none;       
+    }
+
+    &.button-default {
+        background-color: $color-default;
+        border: $border-width $border-style $color-default-border;
+        color: #ffffff;
+    
+        &:hover {
+            background-color: $color-default-hover;
+            border: $border-width $border-style $color-default-border-hover;
+        }
+    }
+    
+    &.button-danger {
+        background-color: $color-danger;
+        border: $border-width $border-style $color-danger-border;
+        color: #ffffff;
+    
+        &:hover {
+            background-color: $color-danger-hover;
+            border: $border-width $border-style $color-danger-border-hover;
+        }
+    }
+}
